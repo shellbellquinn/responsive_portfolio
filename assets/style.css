@@ -1,0 +1,71 @@
+.mqnavlg {
+    background-color: #7abe80;
+    border-bottom: 2px solid #d35b3f;
+}
+
+.mqnavmd {
+    background-color: #7abe80;
+    border-bottom: 2px solid #d35b3f;
+}
+
+.mqnavsm {
+    background-color: #7abe80;
+    border-bottom: 2px solid #d35b3f;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#logo {
+    color: white;
+    background: #658e93;
+    display: inline-flex;
+    font-family: 'Slabo 27px', serif;
+    border: 3px solid #658e93
+}
+
+.mqlinks {
+    color: white;
+    margin: 10px;
+    display: inline-flex;
+    padding-top: 2px;
+}
+
+
+/*large screen*/
+
+@media screen and (max-width: 992px) {
+    .mqnavlg {
+        display: none;
+    }
+
+    /* hide medium and small screens */
+}
+
+/* medium screen*/
+
+@media screen and (min-width: 993px) {
+    .mqnavmd {
+        display: none;
+    }
+
+    /* hide on large screens */
+}
+
+@media screen and (max-width: 768px) {
+    .mqnavmd {
+        display: none;
+    }
+
+    /* hide on small screens */
+}
+
+/* small screen*/
+@media screen and (min-width: 767px) {
+    .mqnavsm {
+        display: none;
+    }
+
+    /* hide it meduim and large */
+
+}
